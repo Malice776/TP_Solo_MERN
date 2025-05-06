@@ -14,7 +14,7 @@ function Publications() {
   // Récupération des publications
   const fetchPublications = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/publications");
+      const response = await axios.get("http://localhost:5001/api/publications");
       setPublications(response.data);
     } catch (error) {
       console.error("Error fetching publications:", error);
@@ -30,12 +30,12 @@ function Publications() {
     e.preventDefault();
     try {
       if (editingId) {
-        await axios.put(`http://localhost:5000/api/publications/${editingId}`, formData, {
+        await axios.put(`http://localhost:5001/api/publications/${editingId}`, formData, {
           headers: { Authorization: `Bearer ${token}` },
         });
         setEditingId(null);
       } else {
-        await axios.post("http://localhost:5000/api/publications", formData, {
+        await axios.post("http://localhost:5001/api/publications", formData, {
           headers: { Authorization: `Bearer ${token}` },
         });
       }
@@ -50,7 +50,7 @@ function Publications() {
   // Suppression des publications
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/publications/${id}`, {
+      await axios.delete(`http://localhost:5001/api/publications/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       fetchPublications(); // Rafraîchir les publications après suppression

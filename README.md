@@ -22,12 +22,14 @@ Service Utilisateur :
 
 Pour lancer les services :
 
-nodemon server.js
+`nodemon server.js`
 
-nodemon publication-service/server.js
-nodemon user-service/server.js
+`nodemon api-gateway/server.js`
+`nodemon publication-service/server.js`
+`nodemon user-service/server.js`
+
 
 
 et pour le frontend :
 
-npm start
+`npm start`
