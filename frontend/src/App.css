@@ -1,0 +1,52 @@
+/* Container principal de l'application */
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.app-header {
+  background-color: #227d48; /* Vert foncé */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Navigation (menu) */
+.app-nav {
+  margin-top: 15px;
+}
+
+.app-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0 15px;
+  padding: 10px 20px;
+  background-color: #1f6a36; /* Un vert légèrement plus foncé pour les liens */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.app-nav a:hover {
+  background-color: #2ecc71; /* Un vert clair pour l'effet de survol */
+}
+
+/* Contenu de la page (les autres sections) */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+}

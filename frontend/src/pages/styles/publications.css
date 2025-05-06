@@ -1,0 +1,44 @@
+/* Liste des publications */
+.publications-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.publication-item {
+  background-color: #227d48;
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.publication-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.publication-item p {
+  margin: 10px 0;
+}
+
+.publication-item button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.publication-item button:hover {
+  background-color: #e67e22;
+}
+
+.publication-item button:last-child {
+  background-color: #e74c3c;
+}
+
+.publication-item button:last-child:hover {
+  background-color: #c0392b;
+}

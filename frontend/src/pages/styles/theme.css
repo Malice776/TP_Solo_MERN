@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Légèrement gris pour le contraste */
+    color: #333; /* Texte principal */
+  }
+  
+  header {
+    background-color: #227d48; /* Vert foncé */
+    color: #ffffff; /* Texte blanc */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #27ae60; /* Vert foncé */
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #2ecc71; /* Vert principal */
+  }
+  
+  /* Forms */
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff; /* Blanc pur */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #227d48; /* Vert foncé */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #27a55b; /* Vert principal */
+  }
+  
+  /* Publications */
+  .publication-card {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Blanc pur */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .publication-card h3 {
+    color: #27ae60; /* Vert foncé */
+  }
+  
+  .publication-card p {
+    line-height: 1.6;
+    color: #555;
+  }
+  
